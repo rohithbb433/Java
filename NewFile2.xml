@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Practice Suite">
+   <listeners>
+		<listener class-name="com.Repo.Reporting" />
+   </listeners>
+
+  <test name="Test Basics 1">
+      <parameter name="DeviceReference" value="CitrixV10_AutoDetect"/>
+      <classes>
+      <class name="com.test.TestPractice"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+</suite> <!-- Suite -->
