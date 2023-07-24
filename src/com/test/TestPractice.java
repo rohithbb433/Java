@@ -28,6 +28,30 @@ public class TestPractice extends SeleniumUtilClass {
 	public void postCondition() {
 		
 		//closeWebApplication();
+		
+		//test
 
 	}
+	
+	@BeforeClass
+	public void preCondition() {
+		repoClass = new RepoClass();	
+	}
+
+	@Test
+	public void MainTest() {
+		repoClass.login();
+		
+	}
+	
+	
+	@AfterClass
+	public void postCondition() {
+		
+		//closeWebApplication();
+		
+		//test
+
+	}
+}
 }
